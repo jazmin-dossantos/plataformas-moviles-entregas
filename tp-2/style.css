@@ -1,0 +1,65 @@
+body{
+    background-color: #222;
+    color: #ee6;
+}
+
+h1{
+    text-align: center;
+}
+ 
+p{
+    font-family: sans-serif;
+}
+
+h1, h2 ,h3{
+    color: #eee;
+}
+
+strong{
+    border-bottom: white;
+}
+
+.the.force{
+    background-color: #444;
+    font-weight: bold;
+}
+
+.light-side{
+    color: #66f;
+}
+.dark-side{
+    color:#f33 ;
+}
+#og-trilogy{
+     list-style-type: circle; 
+}
+ul:nth-of-type(2){
+    margin-left: 50px;
+}
+ul:nth-of-type(3) :last-child{
+    margin-top: 50px;
+}
+
+h1,h2,h3{
+    text-transform: uppercase;
+}
+
+p:first-of-type::first-line{
+    color:#efe;
+}
+
+h1:hover{
+    color: rgb(146, 255, 3);
+}
+a:visited{
+    color:grey;
+}
+a:not([href]){
+    font-style: italic;
+}
+ul li:nth-child(odd){
+    background-color: #111;
+}
+ul li:nth-child(even){
+    background-color: #333;
+}
