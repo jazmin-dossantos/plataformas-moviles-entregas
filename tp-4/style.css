@@ -1,0 +1,54 @@
+@media (min-widht:401px){
+    body{
+        background-color:  rgb(40,60,80);
+    }
+}
+@media(max-widht:799px){
+    h1{
+    text-align: center;
+    }
+}
+@media (orientation: landscape){
+    article{
+        max-width: 50ch;
+    }
+}
+@media (min-widht:200px){
+    h1{
+        background-color: rgb(1, 255, 191);
+    }
+}
+@media print{
+    p{
+        font-family: serif;
+    }
+}
+@media (prefers-color-scheme: light) {
+  body, h1 {
+    color: #111;
+    background-color: #DDD;
+  }
+}
+@media screen and (hover:none){
+    a{
+        background-color: #212;
+        padding: 2px 5px;
+    }
+}
+@media screen and (min-widht:800px) and (max-widht:900px){
+    img{
+        display: none !important;
+    }
+
+}
+@media screen and (min-widht:200px) and (max-widht:300px){
+    img{
+       height: 400px;
+       object-fit: cover;
+        }
+}
+@media (min-resolution:2dppx){
+    article{
+       background-color: #667;
+    }
+}
