@@ -1,15 +1,15 @@
-h1{
+body h1{
     text-align: center;
 }
 
-p{
+body p{
      font-family: serif;
 }
-#primer-parrafo{
+body #primer-parrafo{
     background-color:  #CEE;
 }
 
-#primer-parrafo em{
+body #primer-parrafo em{
     color: #933;
 }
 
@@ -21,11 +21,11 @@ body p.fuente.parrafo{
     opacity: 100%;
 }
 
-p{
+p:not([id]){
    color: rgba(190, 120, 240, 0.6);
 }
 body p.fuente.parrafo{
-    color:  #000;
+    color:  #000 !important;
 }
 .complicado{
     font-weight: bold;
